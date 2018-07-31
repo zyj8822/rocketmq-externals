@@ -31,6 +31,8 @@
         <aspectj.version>1.6.11</aspectj.version>
         <main.basedir>${basedir}/../..</main.basedir>
         <docker.image.prefix>styletang</docker.image.prefix>
+        	<maven.test.failure.ignore>true</maven.test.failure.ignore>
+		<maven.test.skip>true</maven.test.skip>
     </properties>
 
     <dependencies>
